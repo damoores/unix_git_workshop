@@ -1,0 +1,156 @@
+
+history moving-around.txt moving-around.txt
+subl moving-around.txt
+ls
+cd unix_git_workshop/
+cd
+cd un
+# rename file
+mv moving-around.txt ./unix_git_workshop/
+ls -l
+mkdir unix_git_workshop
+la
+l
+man la
+less Screen\ Shot\ 2015-03-05\ at\ 9.55.35\ AM.png
+cd Dropbox/
+cd Drop
+cd ..
+cd..
+#used 'less' to read rtf file
+less Untitled.rtf
+cd Documents/
+less moving-around.txt
+#used 'redirect''>' to pipe history output into .txt file
+history > moving-around.txt
+pwd
+man more
+man less
+man pip
+history
+#pipe history output into 'less' input command for ease of reading
+history | less
+man wq
+clear
+ls ..
+ls .
+cd /
+ls ~
+ls cd
+cd ...
+cd Movies/
+cd .
+cd ../..
+cd M
+cd m
+cd Users/
+cd
+cd .. / ..
+.. / ..
+cd Guest/
+cd Users/bin
+cd U
+ls /Applications/
+ls /
+man sudo
+ls -a
+ls -Z
+ls -tZ
+ls -
+ls -z
+ls -tz
+man ls
+ls -rlt
+ls -rt
+ls -r
+ls -lt
+ls -t
+cd /Users/homeadmin/
+cd ~
+~
+subl /etc/paths
+echo $EDITOR
+brew update
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git --version
+echo $PATH
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+sudo brew doctor
+sudo xcodebuild -license
+brew doctor
+ls -G
+uname
+unam
+git config --global user.email damoores@gmail.com
+git config --global user.name "damoores"
+brew install git
+git --update
+git update
+echo $EDITOR
+set -gx EDITOR 'subl -w'
+# Sublime Text
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+xcode-select --install
+brew upgrade git
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+ls -g
+ls
+ls-g
+git push -u origin master
+git remote add origin https://github.com/damoores/cs26
+git commit -m"Week 2 Code review assignment"
+git status
+git add guessing\ game.html
+cd cs26
+git add guessing\ game.html
+git clone https://github.com/damoores/cs26
+git add guessing game.html
+cd projects/
+cd Desktop/
+cd projects
+cd Projects
+git config --global core.editor "subl -n -w"
+git config --list
+git config --global core.editor sublime
+git config --global core.editor sublime text 2
+git config
+git
+popd
+pushd "$HOME"
+append_plist_var PATH "/usr/local/git/bin" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+append_path () {   input="$1";   value="$2";   if ! echo $input | /usr/bin/egrep -q "(^|:)$value($|:)" ; then      if [ "$3" = "after" ] ; then         echo $input:$value;      else         echo $value:$input;      fi;   else     echo $input;   fi; }
+cd usr
+cd bin
+run git
+rung it
+cd Applications
+cd Public
+cd PubLIC
+cd HD
+cd Applications/
+cd Library/
+cd Library
+/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+rvm autolibs enable
+rvm install 2.0.0
+:wq
+wq
+q
+:WQ
+;wq
+[[ -s "/Users/homeadmin/.rvm/scripts/rvm" ]] && source "/Users/homeadmin/.rvm/scripts/rvm"
+PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
+[[ -s "/Users/USERNAME/.rvm/scripts/rvm" ]] && source "/Users/USERNAME/.rvm/scripts/rvm"
+[[ -s "/Users/homeadmin/.rvm/scripts/rvm"]] &&source "/Users/homeadmin/.rvm/scripts/rvm" PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
+[[ -s "/Users/homeadmins/.rvm/scripts/rvm"]] &&source "/Users/homeadmins/.rvm/scripts/rvm" PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
+vi-/.bash_profile
+\curl -sSL https://get.rvm.io | bash -s stable
+user$ \curl -sSL https://get.rvm.io | bash -s stable
