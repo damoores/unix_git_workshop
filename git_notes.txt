@@ -10,3 +10,9 @@ GIT BRANCH will fork the change path, so that multiple development paths can
 be track at the same time.
 CHECKOUT "branch" will move your current location (HEAD) to the branch, and
 track changes from there.
+
+Remote repo
+
+github is a site for storing remote repos, which can then serve as a central
+point to collaborate with other users, share your work, etc.
+once you PUSH a change to github, your local git repo is copied to github
