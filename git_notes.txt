@@ -1,0 +1,12 @@
+Branched the unix/git notes. Mainly to explore the use of the branch/fork
+process.
+
+git is version control software. When you GIT INIT, git will create a repo and
+start tracking all changes to the directory you are currently in. Once you
+GIT ADD a file, git tracks all changes made to this file, and who made the
+changes, and when. GIT COMMIT -m"version notes" will make a saved copy of the
+current state of the file.
+GIT BRANCH will fork the change path, so that multiple development paths can
+be track at the same time.
+CHECKOUT "branch" will move your current location (HEAD) to the branch, and
+track changes from there.
